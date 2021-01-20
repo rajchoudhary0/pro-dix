@@ -236,15 +236,16 @@ footer p {
 
 @media screen and (max-width:768px) {
     .container {
-        width: 95vw;
+        width: 85vw;
     }
     .dix input[type=text] {
-        width: 90vw;
+        width: 90%;
     }
     nav {
         position: sticky;
         top: 0;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0 1rem;
     }
     .nav-links {
         position: absolute;
